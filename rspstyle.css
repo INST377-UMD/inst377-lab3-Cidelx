@@ -1,0 +1,66 @@
+header, footer {
+    background-color: blue;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+body {
+    font-family: Arial;
+}
+
+nav {
+    text-align: center;
+    margin: 10px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: yellow;
+}
+
+.main {
+    background-color: aqua;
+    width: 70%;
+    border: solid;
+    float: left;
+    margin: 10px;
+    padding: 15px;
+}
+.sidebar {
+    width: 25%;
+    border: solid;
+    background-color: red;
+    float: right;
+    margin: 10px;
+    padding: 15px;
+}
+.sidebar:hover {
+    background-color: orange;
+}
+
+footer {
+    clear: both;
+    background-color: blue;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid;
+    text-align: center;
+}
+
+#name {
+    width: 150px;
+}
+
+#name:focus {
+    width: 250px;
+}
